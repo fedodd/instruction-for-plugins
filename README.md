@@ -1,4 +1,44 @@
 # instruction-for-plugins
+
+GIT:
+
+В папке с будущим проектом:
+git init
+
+Добавить все изменения к коммиту
+git add -A 
+
+Сделать коммит:
+git commit -m 'Комментарий'
+
+Отправить всё на сервер:
+git push origin название-твоей-ветки
+
+Создать ветку:
+git checkout -b 'branch_name'
+ git checkout master - переход на мастер если надо
+
+НАСТРОЙКА СБОРЩИКА
+
+Устанавливаем ноду
+Устанвливаем галп глобально
+npm install -g gulp-cli
+Создаём пустой проект и инициализаируем в нём гит-репо
+
+В проекте иницилизируем пакет:
+npm init
+
+ссделать проще: npm yarn -  установит сразу все пакеты.
+Устанавливаем необходимые пакеты с флагом --save-dev, чтобы они сохранились в package.json
+
+npm install --save-dev gulp gulp-concat gulp-postcss autoprefixer
+Создаём галп-файл и описываем в нём задачи. Подсмотреть здесь: https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
+
+Запускаем задачу:
+
+gulp serve
+Добавляем node_modules и сгенерированные файлы в .gitignore
+
 Небольшая инструкция по прикрутке галерей и слайдеров к проекту
 
 ГАЛЛЕРЕЯ
