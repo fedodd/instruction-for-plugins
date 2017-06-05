@@ -29,6 +29,9 @@ npm install -g gulp-cli
 npm init
 
 ссделать проще: npm yarn -  установит сразу все пакеты.
+yarn add gulp-changed
+
+____________________________________
 Устанавливаем необходимые пакеты с флагом --save-dev, чтобы они сохранились в package.json
 
 npm install --save-dev gulp gulp-concat gulp-postcss autoprefixer
@@ -37,6 +40,7 @@ npm install --save-dev gulp gulp-concat gulp-postcss autoprefixer
 Запускаем задачу:
 
 gulp serve
+__________________________________
 Добавляем node_modules и сгенерированные файлы в .gitignore
 
 Небольшая инструкция по прикрутке галерей и слайдеров к проекту
