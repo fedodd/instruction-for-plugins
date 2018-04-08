@@ -67,4 +67,8 @@ __________________________________
    
    * Если мы уже подключили jquery  и app.js То нужна только строчка со slick
    
+   Сервер с MYSQL И WP TONIK
    
+Sudo service apache2 start - запуск
+Затем sudo service mysql start
+Yarn watch в теме
